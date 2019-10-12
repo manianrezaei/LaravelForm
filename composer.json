@@ -1,0 +1,16 @@
+{
+  "name": "manian/laravel-form",
+  "description": "Create form by array",
+  "authors": [
+    {
+      "name": "Manian Rezaie",
+      "email": "manianrezaie@gmail.com"
+    }
+  ],
+  "require": {},
+  "autoload": {
+    "psr-4": {
+      "manian\\laravel-form\\": "src/"
+    }
+  }
+}
