@@ -1,16 +1,33 @@
 {
   "name": "manian/laravel-form",
-  "description": "Create form by array",
+  "type": "library",
+  "description": "create form by array",
+  "keywords": [
+  ],
+  "support": {
+    "issues": "https://github.com/manianrezaie/LaravelForm/issues",
+    "source": "https://github.com/manianrezaie/LaravelForm"
+  },
+  "license": "MIT",
   "authors": [
     {
       "name": "Manian Rezaie",
       "email": "manianrezaie@gmail.com"
     }
   ],
-  "require": {},
+  "minimum-stability": "dev",
+  "require": {
+    "ext-json": "*",
+    "symfony/translation": "^3.4 || ^4.0"
+  },
+  "require-dev": {},
   "autoload": {
     "psr-4": {
-      "manian\\laravel-form\\": "src/"
+      "Manian\\": "src/"
     }
+  },
+  "config": {
+    "process-timeout": 0,
+    "sort-packages": true
   }
 }
